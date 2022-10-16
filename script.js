@@ -50,6 +50,7 @@ function godFather() {
 	}
 }
 
+// Roman
 function talkToFather() {
 	let message = [
 		'Наконец-то можно поговорить как мужчина с мужчиной. Скажи мне, это ты захотел познакомиться со мной, или моя дочь тебя убедила?',
@@ -84,7 +85,7 @@ function talkToFather() {
 	}
 }
 
-//
+// Maryana Tymko 
 function startQuiz(){
 	let lng = prompt(`Виберіть мову опитування`, `укр \n рос`);
 	switch (lng) {
@@ -303,7 +304,9 @@ function startQuiz(){
   }
   alert(`Правильних відповідей - ${res} / 5`);
   return;
-  }
+  } 
+
+  
   // Богдан//
 
 function start_game() {
@@ -322,5 +325,3 @@ function start_game() {
     c=confirm ('Вернуться в главное меню?');    
     } while (!c);
 }
-  
-  
