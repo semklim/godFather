@@ -323,4 +323,3 @@ function start_game() {
     } while (!c);
 }
   
-  
