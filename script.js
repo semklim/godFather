@@ -84,7 +84,7 @@ function talkToFather() {
 	}
 }
 
-//
+// Maryana Tymko 
 function startQuiz(){
 	let lng = prompt(`Виберіть мову опитування`, `укр \n рос`);
 	switch (lng) {
@@ -303,6 +303,5 @@ function startQuiz(){
   }
   alert(`Правильних відповідей - ${res} / 5`);
   return;
-  }
-  
-  
+  } 
+  //
