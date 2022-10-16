@@ -34,7 +34,7 @@ function godFather() {
 			break;
 			}
 			case 2:{
-				
+        start_game();
 			break;
 			}
 			case 3:{
@@ -304,4 +304,23 @@ function startQuiz(){
   alert(`Правильних відповідей - ${res} / 5`);
   return;
   } 
-  //
+
+  
+  // Богдан//
+
+function start_game() {
+	let c = false;
+	do {
+        let b = prompt ( ' Скажите что повторить? ') ;
+    let a = Number( prompt ( 'Сколько раз повторить? ')) ;
+   
+    if ( a=== '' || isNaN(a) === true ){
+        alert('Не могу посчитать');
+        continue;
+    }
+    for (let i = 0 ; i < a ; i+=1) { 
+    alert(b)
+    }   
+    c=confirm ('Вернуться в главное меню?');    
+    } while (!c);
+}
